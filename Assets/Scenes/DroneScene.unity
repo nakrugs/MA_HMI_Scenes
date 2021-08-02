@@ -609,6 +609,10 @@ PrefabInstance:
       propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6505240, guid: 979fc5f838d46744aa26f426a3934492, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 11408038, guid: 979fc5f838d46744aa26f426a3934492, type: 3}
       propertyPath: m_Enabled
       value: 0
