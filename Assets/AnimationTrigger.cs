@@ -7,7 +7,8 @@ public class AnimationTrigger : MonoBehaviour
     public Animator a;
         void OnTriggerEnter(Collider col)
     {
-       if(col.tag == "Player")
+     // von Dani:  if(col.tag == "Player")
+        if(col.tag == "MainCamera")
         {
         Debug.Log("ENTERED");
         a.SetTrigger("ShuttleLeaves");
