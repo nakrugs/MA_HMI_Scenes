@@ -11,6 +11,7 @@ public class AnimationControl : MonoBehaviour
         if (Input.GetButtonDown("Key1"))
         {
             theNPC.GetComponent<Animator>().Play("ShuttleArrives");
+            theNPC.GetComponent<Animator>().Play("CarArrivesAnimation");
         }
     }
 }
