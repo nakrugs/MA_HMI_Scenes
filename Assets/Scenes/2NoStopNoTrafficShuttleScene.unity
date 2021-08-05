@@ -697,7 +697,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae22af5ae9c109641904c3a28e59c03b, type: 2}
+  - {fileID: 2100000, guid: c8f76f99ef11a4748b9dc2198bc0d49f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -927,7 +927,7 @@ Animator:
   m_GameObject: {fileID: 670041463}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: db31e0a4885708642994fb556b2055ff, type: 2}
+  m_Controller: {fileID: 9100000, guid: 5cb825eb8b4305d47b133a8e4e3b5c73, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1032,18 +1032,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &670041467
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 670041463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22ad4b6f6d32c554995f8ef900765099, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &670041468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1523,7 +1511,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae22af5ae9c109641904c3a28e59c03b, type: 2}
+  - {fileID: 2100000, guid: c8f76f99ef11a4748b9dc2198bc0d49f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1802,7 +1790,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 597b1d2ffa1abd34c93e424941455cbe, type: 2}
+  - {fileID: 2100000, guid: c0c0f4e8f1845bb44918fba9fed3b47e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1941,7 +1929,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1610265466720824, guid: 02e641040fb499c49a848e40f535164a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4013073016293618, guid: 02e641040fb499c49a848e40f535164a, type: 3}
       propertyPath: m_RootOrder
@@ -1999,6 +1987,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 95629998500851910, guid: 02e641040fb499c49a848e40f535164a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 2215415a1adaf234fada62e9abe73861, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02e641040fb499c49a848e40f535164a, type: 3}
 --- !u!1 &1761085711
@@ -2067,7 +2059,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae22af5ae9c109641904c3a28e59c03b, type: 2}
+  - {fileID: 2100000, guid: c8f76f99ef11a4748b9dc2198bc0d49f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2255,7 +2247,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5216620856768808342, guid: 3cab2aee7c94aa743ad7f34b1e73f182, type: 3}
       propertyPath: m_Name
-      value: Electric Bus Lowpoly
+      value: Electric Bus Lowpoly2
       objectReference: {fileID: 0}
     - target: {fileID: 5926698135746035936, guid: 3cab2aee7c94aa743ad7f34b1e73f182, type: 3}
       propertyPath: m_LocalRotation.w
