@@ -5,7 +5,7 @@ using UnityEngine;
 public class AnimationTrigger : MonoBehaviour
 {
     public Animator a;
-    public Animator b;
+   // public Animator b;
 
         void OnTriggerEnter(Collider col)
     {
@@ -15,8 +15,8 @@ public class AnimationTrigger : MonoBehaviour
         Debug.Log("ENTERED");
         a.SetTrigger("ShuttleLeaves");
             a.Play("ShuttleLeaves");
-            b.SetTrigger("CarLeavesAnimation");
-            b.Play("CarLeavesAnimation");
+          //  b.SetTrigger("CarLeavesAnimation");
+           // b.Play("CarLeavesAnimation");
         Destroy(this);
         }
         

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AnimationControl : MonoBehaviour
+public class AnimationControllerTraffic : MonoBehaviour
 {
     public GameObject theNPC;
 
@@ -11,6 +11,8 @@ public class AnimationControl : MonoBehaviour
         if (Input.GetButtonDown("Key1"))
         {
             theNPC.GetComponent<Animator>().Play("ShuttleArrives");
+            theNPC.GetComponent<Animator>().Play("CarArrivesAnimation");
         }
     }
+
 }
