@@ -226,7 +226,7 @@ AnimatorTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 1
---- !u!1102 &-990463222730125920
+--- !u!1102 &-24239863772056340
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
@@ -342,14 +342,14 @@ AnimatorStateMachine:
     m_State: {fileID: -4245822423042911413}
     m_Position: {x: 30, y: 300, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -990463222730125920}
-    m_Position: {x: 30, y: 210, z: 0}
-  - serializedVersion: 1
     m_State: {fileID: 7196278384421993133}
     m_Position: {x: 352.1231, y: 139.34076, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2280129466742815639}
     m_Position: {x: 387.1231, y: 204.34076, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -24239863772056340}
+    m_Position: {x: 30, y: 220, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
