@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CarArrivesAnimation 1
+  m_Name: CarArrivesAnimation
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -191,24 +191,24 @@ AnimationClip:
       - serializedVersion: 3
         time: 14.633333
         value: {x: -2, y: 0, z: 8.834539}
-        inSlope: {x: 0, y: 0, z: -6.921904}
-        outSlope: {x: 0, y: 0, z: -6.921904}
+        inSlope: {x: 0, y: 0, z: -7.290756}
+        outSlope: {x: 0, y: 0, z: -7.290756}
         tangentMode: 0
         weightedMode: 2
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 14.666667
-        value: {x: -2, y: 0, z: 8.600676}
-        inSlope: {x: 0, y: 0, z: -7.108063}
-        outSlope: {x: 0, y: 0, z: -7.108063}
+        value: {x: -2, y: 0, z: 8.587584}
+        inSlope: {x: 0, y: 0, z: -7.5243983}
+        outSlope: {x: 0, y: 0, z: -7.5243983}
         tangentMode: 0
         weightedMode: 3
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.3333333}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 16.666666
-        value: {x: -2, y: 0, z: -4.5}
+        value: {x: -2, y: 0, z: -6}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -436,15 +436,15 @@ AnimationClip:
       - serializedVersion: 3
         time: 14.633333
         value: 8.834539
-        inSlope: -6.921904
-        outSlope: -6.921904
+        inSlope: -7.290756
+        outSlope: -7.290756
         tangentMode: 34
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 16.666666
-        value: -4.5
+        value: -6
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -970,36 +970,6 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Tocus_Wheel_Left_Font
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Tocus_Wheel_Left_Font
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Tocus_Wheel_Left_Font
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
     path: Tocus_Wheel_Right_Back
     classID: 4
     script: {fileID: 0}
@@ -1051,6 +1021,36 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
     path: Tocus_Wheel_Left_Back
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Tocus_Wheel_Left_Font
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Tocus_Wheel_Left_Font
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Tocus_Wheel_Left_Font
     classID: 4
     script: {fileID: 0}
   - curve:
