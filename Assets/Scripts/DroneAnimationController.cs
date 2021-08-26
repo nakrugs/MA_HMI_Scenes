@@ -11,6 +11,7 @@ public class DroneAnimationController : MonoBehaviour
         if (Input.GetButtonDown("Key1"))
         {
             theNPC.GetComponent<Animator>().Play("DroneAnimation");
+            theNPC.GetComponent<Animator>().Play("SecondDroneAnimation");
         }
     }
 }
