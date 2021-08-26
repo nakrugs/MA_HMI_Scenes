@@ -1047,7 +1047,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1289512497}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 882b7f9e507c5ce4484c8c2139dd21de, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f26bc1f81edf9a42a05fb9cec3e0e2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   theNPC: {fileID: 1289512497}
@@ -1337,7 +1337,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 193520, guid: 979fc5f838d46744aa26f426a3934492, type: 3}
       propertyPath: m_Name
-      value: Drone
+      value: Drone1
       objectReference: {fileID: 0}
     - target: {fileID: 442520, guid: 979fc5f838d46744aa26f426a3934492, type: 3}
       propertyPath: m_RootOrder
@@ -1432,7 +1432,7 @@ Animator:
   m_GameObject: {fileID: 1636433527}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8a12f86f7b2697d4b9b47ef0f571b5d4, type: 2}
+  m_Controller: {fileID: 9100000, guid: 5320be5038f1fe14a93c7733a1d88360, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1569,7 +1569,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1636433527}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 882b7f9e507c5ce4484c8c2139dd21de, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f26bc1f81edf9a42a05fb9cec3e0e2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   theNPC: {fileID: 1636433527}
