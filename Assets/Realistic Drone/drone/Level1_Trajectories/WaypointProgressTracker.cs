@@ -155,15 +155,15 @@ public class WaypointProgressTracker : MonoBehaviour
     // --- function used to draw lines and shapes in the editor-mode
 
     public bool drawGizoms = true;
-        private void OnDrawGizmos()
-        {
-            if (Application.isPlaying && drawGizoms)
-            { 
-                Gizmos.color = Color.blue;
-                Gizmos.DrawLine(transform.position, target.position);
-                Gizmos.DrawWireSphere(waypoint.GetRoutePosition(progressDistance), 0.25f);
-                Gizmos.color = Color.cyan;
-                Gizmos.DrawLine(target.position, target.position + target.forward);
-            }
-        }
+        //private void OnDrawGizmos()
+        //{
+        //    if (Application.isPlaying && drawGizoms)
+        //    { 
+        //        Gizmos.color = Color.blue;
+        //        Gizmos.DrawLine(transform.position, target.position);
+        //        Gizmos.DrawWireSphere(waypoint.GetRoutePosition(progressDistance), 0.25f);
+        //        Gizmos.color = Color.cyan;
+        //        Gizmos.DrawLine(target.position, target.position + target.forward);
+        //    }
+        //}
     }
