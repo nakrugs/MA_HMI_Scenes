@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class DroneAnimationControllerNoHMI : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject theNPC;
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetButtonDown("Key1"));
+        {
+            theNPC.GetComponent<Animator>().Play("DroneAnimationNoHMI");
+        }
     }
 }

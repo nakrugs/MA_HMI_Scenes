@@ -13,7 +13,7 @@ public class DroneAnimationTriggerNoHMI : MonoBehaviour
             if (col.tag == "Player")
             {
                 Debug.Log("ENTERED");
-                b.SetTrigger("DroneLeavesNoHMI");
+            b.SetTrigger("DroneLeavesNoHMI");
                 b.Play("DroneLeavesNoHMI");
                 Destroy(this);
             }
