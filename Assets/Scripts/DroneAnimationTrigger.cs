@@ -13,7 +13,7 @@ public class DroneAnimationTrigger : MonoBehaviour
         if (col.tag == "Player")
         {
             Debug.Log("ENTERED");
-            a.SetTrigger("DroneLeaves");
+            //a.SetTrigger("DroneLeaves");
             a.Play("DroneLeaves");
              Destroy(this);
         }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DroneAnimationTriggerNoHMI : MonoBehaviour
 {
-    public Animator b;
+    public Animator a;
 
     private void OnTriggerEnter(Collider col)
     
@@ -13,8 +13,8 @@ public class DroneAnimationTriggerNoHMI : MonoBehaviour
             if (col.tag == "Player")
             {
                 Debug.Log("ENTERED");
-            b.SetTrigger("DroneLeavesNoHMI");
-                b.Play("DroneLeavesNoHMI");
+            //a.SetTrigger("DroneLeavesNoHMI");
+               a.Play("DroneLeavesNoHMI");
                 Destroy(this);
             }
         }
