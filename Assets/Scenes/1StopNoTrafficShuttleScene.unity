@@ -1512,6 +1512,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 551ff07a6b155ac449b420505087c928, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultHeight: 1.8
+  camera: {fileID: 1288826926}
 --- !u!1 &1140179588 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 116882, guid: cb3370c18187bb444b240cfb08dcc02f, type: 3}
@@ -1630,6 +1632,11 @@ MeshFilter:
 --- !u!1 &1288826921 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 116882, guid: cb3370c18187bb444b240cfb08dcc02f, type: 3}
+  m_PrefabInstance: {fileID: 517171906}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &1288826926 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 2071970, guid: cb3370c18187bb444b240cfb08dcc02f, type: 3}
   m_PrefabInstance: {fileID: 517171906}
   m_PrefabAsset: {fileID: 0}
 --- !u!136 &1288826927
