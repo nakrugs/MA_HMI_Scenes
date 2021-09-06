@@ -8,9 +8,9 @@ public class DroneAnimationControllerNoHMI : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Key1"));
+        if (Input.GetButtonDown("Key1"))
         {
-            theNPC.GetComponent<Animator>().Play("DroneAnimationNoHMI");
+            theNPC.GetComponent<Animator>().Play("NewDroneArrNoHMI");
         }
     }
 }

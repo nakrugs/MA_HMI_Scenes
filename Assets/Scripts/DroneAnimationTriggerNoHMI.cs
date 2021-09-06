@@ -6,7 +6,7 @@ public class DroneAnimationTriggerNoHMI : MonoBehaviour
 {
     public Animator a;
 
-    private void OnTriggerEnter(Collider col)
+   void OnTriggerEnter(Collider col)
     
         {
 
@@ -14,7 +14,7 @@ public class DroneAnimationTriggerNoHMI : MonoBehaviour
             {
                 Debug.Log("ENTERED");
             //a.SetTrigger("DroneLeavesNoHMI");
-               a.Play("DroneLeavesNoHMI");
+               a.Play("NewDroneLeavNoHMI");
                 Destroy(this);
             }
         }
