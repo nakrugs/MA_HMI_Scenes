@@ -860,8 +860,8 @@ GameObject:
   - component: {fileID: 762423864}
   - component: {fileID: 762423863}
   - component: {fileID: 762423862}
-  - component: {fileID: 762423861}
   - component: {fileID: 762423860}
+  - component: {fileID: 762423861}
   m_Layer: 0
   m_Name: Trigger
   m_TagString: Player
@@ -894,7 +894,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 762423859}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 099a24329051d5a45a48b7b21b268302, type: 3}
+  m_Script: {fileID: 11500000, guid: 5833c7b3886bd2f4aa692c76ff36c177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   a: {fileID: 1636433528}
@@ -2469,6 +2469,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   theNPC: {fileID: 1636433527}
+--- !u!114 &1636433532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636433527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396bc9ec815a0da4293b09f743555e0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Package: {fileID: 255440211}
 --- !u!1 &2120222146
 GameObject:
   m_ObjectHideFlags: 0

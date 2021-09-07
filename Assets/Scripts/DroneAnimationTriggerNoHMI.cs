@@ -6,7 +6,7 @@ public class DroneAnimationTriggerNoHMI : MonoBehaviour
 {
     public Animator a;
 
-   void OnTriggerEnter(Collider col)
+   void OnTriggerEnter (Collider col)
     
         {
 

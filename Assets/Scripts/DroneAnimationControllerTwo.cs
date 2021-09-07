@@ -5,6 +5,7 @@ using UnityEngine;
 public class DroneAnimationControllerTwo : MonoBehaviour
 {
     public GameObject theNPC;
+
     void Update()
     {
         if (Input.GetButtonDown("Key1"))
