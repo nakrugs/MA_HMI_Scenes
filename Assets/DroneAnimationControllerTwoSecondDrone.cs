@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DroneAnimationControllerTwo : MonoBehaviour
+public class DroneAnimationControllerTwoSecondDrone : MonoBehaviour
 {
     public GameObject theNPC;
 
@@ -10,8 +10,8 @@ public class DroneAnimationControllerTwo : MonoBehaviour
     {
         if (Input.GetButtonDown("Key1"))
         {
-         
-            theNPC.GetComponent<Animator>().Play("DroneOneAnimation");
+            theNPC.GetComponent<Animator>().Play("SecondDroneNearFlyBy");
+            
         }
     }
 }

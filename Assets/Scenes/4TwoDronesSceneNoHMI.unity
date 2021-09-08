@@ -861,6 +861,7 @@ GameObject:
   - component: {fileID: 762423863}
   - component: {fileID: 762423862}
   - component: {fileID: 762423860}
+  - component: {fileID: 762423866}
   - component: {fileID: 762423861}
   m_Layer: 0
   m_Name: Trigger
@@ -894,7 +895,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 762423859}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5833c7b3886bd2f4aa692c76ff36c177, type: 3}
+  m_Script: {fileID: 11500000, guid: d78786fcae4a67640b04e4f825249c90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   a: {fileID: 1636433528}
@@ -974,6 +975,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &762423866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762423859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d78786fcae4a67640b04e4f825249c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  a: {fileID: 0}
 --- !u!1 &831006126
 GameObject:
   m_ObjectHideFlags: 0
@@ -2123,7 +2137,7 @@ Animator:
   m_GameObject: {fileID: 1636433527}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5320be5038f1fe14a93c7733a1d88360, type: 2}
+  m_Controller: {fileID: 9100000, guid: 5267fc8fd55429043a536caa15b6e124, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2260,7 +2274,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1636433527}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f26bc1f81edf9a42a05fb9cec3e0e2e, type: 3}
+  m_Script: {fileID: 11500000, guid: 02afafbdd1a6fd943878252727157acd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   theNPC: {fileID: 1636433527}
