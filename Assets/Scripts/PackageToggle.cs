@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class PackageToggle : MonoBehaviour
 {
+  
     public GameObject Package;
+
    public void TogglePackage()
     {
         Package.SetActive(false);
+
     } 
 }
