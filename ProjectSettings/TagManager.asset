@@ -6,6 +6,7 @@ TagManager:
   tags:
   - HouseWindow
   - DoorLamp
+  - Drone
   layers:
   - Default
   - TransparentFX
