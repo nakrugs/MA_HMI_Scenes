@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028328, g: 0.22571322, b: 0.30692163, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -377,7 +377,7 @@ Light:
       e32: 0
       e33: 1
     m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 2800000, guid: a87aa22fa0d378d43a41d1a287793fdc, type: 3}
+  m_Cookie: {fileID: 2800000, guid: 0eaa3bc5edfdc424189b4beb7425a62f, type: 3}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
   m_RenderMode: 0
@@ -1134,7 +1134,7 @@ Light:
       e32: 0
       e33: 1
     m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 2800000, guid: a87aa22fa0d378d43a41d1a287793fdc, type: 3}
+  m_Cookie: {fileID: 2800000, guid: ddf385b87217bb249bc87d6f86208dbe, type: 3}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
   m_RenderMode: 0
@@ -1314,7 +1314,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1311644737}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.123, y: 0.65, z: 211}
+  m_LocalPosition: {x: 2.123, y: 0.06, z: 211}
   m_LocalScale: {x: 2, y: 0.5833, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2189,7 +2189,7 @@ Light:
       e32: 0
       e33: 1
     m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 2800000, guid: a87aa22fa0d378d43a41d1a287793fdc, type: 3}
+  m_Cookie: {fileID: 2800000, guid: d8d740e63bbd9fa4994e9c1102e91d04, type: 3}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
   m_RenderMode: 0
