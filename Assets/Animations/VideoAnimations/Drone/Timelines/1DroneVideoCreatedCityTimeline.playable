@@ -44,6 +44,28 @@ MonoBehaviour:
   m_Loop: 0
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!114 &-432570000638577366
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
+  m_Name: AnimationPlayableAsset
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: 7400000, guid: f67c2b8180fba9e4b91173d32bbb6cb3, type: 2}
+  m_Position: {x: 9, y: 2, z: 215.5}
+  m_EulerAngles: {x: 0, y: 150, z: 0}
+  m_UseTrackMatchFields: 1
+  m_MatchTargetFields: 63
+  m_RemoveStartOffset: 1
+  m_ApplyFootIK: 1
+  m_Loop: 0
+  m_Version: 1
+  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,28 +170,6 @@ MonoBehaviour:
   m_Clip: {fileID: 7400000, guid: c21abba047aa2b44dbaed54630f47b41, type: 2}
   m_Position: {x: 10, y: 1.727, z: 214.5}
   m_EulerAngles: {x: 0, y: 180, z: 0}
-  m_UseTrackMatchFields: 1
-  m_MatchTargetFields: 63
-  m_RemoveStartOffset: 1
-  m_ApplyFootIK: 1
-  m_Loop: 0
-  m_Version: 1
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
---- !u!114 &2816606730361680655
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
-  m_Name: AnimationPlayableAsset
-  m_EditorClassIdentifier: 
-  m_Clip: {fileID: 7400000, guid: f67c2b8180fba9e4b91173d32bbb6cb3, type: 2}
-  m_Position: {x: 9, y: 2, z: 215.5}
-  m_EulerAngles: {x: 0, y: 150, z: 0}
   m_UseTrackMatchFields: 1
   m_MatchTargetFields: 63
   m_RemoveStartOffset: 1
@@ -619,8 +619,8 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 5
     m_ClipIn: 0
-    m_Asset: {fileID: 2816606730361680655}
-    m_Duration: 22
+    m_Asset: {fileID: -432570000638577366}
+    m_Duration: 35
     m_TimeScale: 1
     m_ParentTrack: {fileID: 7078861005225596196}
     m_EaseInDuration: 0
