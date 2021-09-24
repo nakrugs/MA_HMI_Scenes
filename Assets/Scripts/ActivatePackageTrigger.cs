@@ -6,10 +6,12 @@ public class ActivatePackageTrigger : MonoBehaviour
 {
     public GameObject Drone;
     public GameObject PackageTracker;
+    public Renderer Mesh;
 
     private void Start()
     {
-       PackageTracker.SetActive(false); 
+        //PackageTracker.SetActive(false); 
+        PackageTracker.GetComponent<Renderer>().enabled = false;
     }
     
        
@@ -18,7 +20,8 @@ public class ActivatePackageTrigger : MonoBehaviour
 
         if (col.tag == "Drone")
         {
-            PackageTracker.SetActive(true);
+            PackageTracker.GetComponent<Renderer>().enabled = true;
+            //PackageTracker.SetActive(true);
             Debug.Log("DroneENTERED");
         }
 
