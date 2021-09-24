@@ -6,10 +6,10 @@ public class DeAndActivatePackageTracker : MonoBehaviour
 {
     public GameObject PackageTracker;
 
-    private void Start()
-    {
-        PackageTracker.SetActive(false);
-    }
+   // private void Start()
+   // {
+      //  PackageTracker.SetActive(false);
+  //  }
     // Update is called once per frame
     void Update()
     {
