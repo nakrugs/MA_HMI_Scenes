@@ -10,7 +10,7 @@ public class AnimationControllerNoStop : MonoBehaviour
     {
         if (Input.GetButtonDown("Key1"))
         {
-            theNPC.GetComponent<Animator>().Play("ShuttleNoStop");
+            theNPC.GetComponent<Animator>().Play("ShuttleNoStop 1");
             theNPC.GetComponent<Animator>().Play("CarNoStop");
         }
     }
