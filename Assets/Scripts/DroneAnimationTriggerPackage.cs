@@ -14,7 +14,7 @@ public class DroneAnimationTriggerPackage : MonoBehaviour
         {
             Debug.Log("ENTERED");
             //a.SetTrigger("DroneLeavesWithoutPackage");
-            a.Play("DroneLeaves");
+            a.Play("DroneLeavesWithoutPackage");
             Destroy(this);
         }
 

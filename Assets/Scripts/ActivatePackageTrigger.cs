@@ -7,6 +7,15 @@ public class ActivatePackageTrigger : MonoBehaviour
     public GameObject Drone;
     public GameObject PackageTracker;
 
+    private void Start(Collider col)
+    {
+        if (col.tag == "Player")
+        {
+            PackageTracker.SetActive(false);
+            Debug.Log("PackageInvisible");
+        }
+    }
+
     void OnTriggerEnter(Collider col)
     {
 
