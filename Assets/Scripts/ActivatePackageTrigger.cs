@@ -10,8 +10,9 @@ public class ActivatePackageTrigger : MonoBehaviour
 
     private void Start()
     {
-        //PackageTracker.SetActive(false); 
-        PackageTracker.GetComponent<Renderer>().enabled = false;
+        PackageTracker.SetActive(false); 
+       // PackageTracker.GetComponent<Renderer>().enabled = false;
+       
     }
     
        
@@ -20,8 +21,8 @@ public class ActivatePackageTrigger : MonoBehaviour
 
         if (col.tag == "Drone")
         {
-            PackageTracker.GetComponent<Renderer>().enabled = true;
-            //PackageTracker.SetActive(true);
+            //PackageTracker.GetComponent<Renderer>().enabled = true;
+            PackageTracker.SetActive(true);
             Debug.Log("DroneENTERED");
         }
 
