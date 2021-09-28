@@ -677,7 +677,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &437251351
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -748,7 +748,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 437251350}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.125, y: 0.153, z: 211}
+  m_LocalPosition: {x: 2.125, y: 0.102, z: 211}
   m_LocalScale: {x: 0.4, y: 0.2, z: 0.4}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1243,7 +1243,7 @@ PlayableDirector:
   m_GameObject: {fileID: 931983347}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 5b1427611b9077f44b5ca5c8e9039a9b, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 91f0c822ef921504a804f326b7e4d647, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -1260,6 +1260,12 @@ PlayableDirector:
   - key: {fileID: 1623834869151102799, guid: 5b1427611b9077f44b5ca5c8e9039a9b, type: 2}
     value: {fileID: 1636433528}
   - key: {fileID: 7443122091063703457, guid: 5b1427611b9077f44b5ca5c8e9039a9b, type: 2}
+    value: {fileID: 1194101374}
+  - key: {fileID: 6655752103074704555, guid: 5b1427611b9077f44b5ca5c8e9039a9b, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -3922753120202882923, guid: 91f0c822ef921504a804f326b7e4d647, type: 2}
+    value: {fileID: 1636433528}
+  - key: {fileID: -7637152738728630465, guid: 91f0c822ef921504a804f326b7e4d647, type: 2}
     value: {fileID: 1194101374}
   m_ExposedReferences:
     m_References: []
@@ -2054,11 +2060,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 442520, guid: 979fc5f838d46744aa26f426a3934492, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.00000004371139
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 442520, guid: 979fc5f838d46744aa26f426a3934492, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 442520, guid: 979fc5f838d46744aa26f426a3934492, type: 3}
       propertyPath: m_LocalRotation.y
@@ -2066,7 +2072,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 442520, guid: 979fc5f838d46744aa26f426a3934492, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 442520, guid: 979fc5f838d46744aa26f426a3934492, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
