@@ -1261,6 +1261,8 @@ PlayableDirector:
     value: {fileID: 1636433528}
   - key: {fileID: 7443122091063703457, guid: 5b1427611b9077f44b5ca5c8e9039a9b, type: 2}
     value: {fileID: 1194101374}
+  - key: {fileID: 6655752103074704555, guid: 5b1427611b9077f44b5ca5c8e9039a9b, type: 2}
+    value: {fileID: 1924132930}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &1003518503
@@ -2480,7 +2482,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 193520, guid: 979fc5f838d46744aa26f426a3934492, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 410972, guid: 979fc5f838d46744aa26f426a3934492, type: 3}
       propertyPath: m_LocalRotation.w
