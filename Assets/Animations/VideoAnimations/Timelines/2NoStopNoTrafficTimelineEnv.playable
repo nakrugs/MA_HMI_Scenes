@@ -22,10 +22,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 3.0166666666666666
+    m_Start: 3
     m_ClipIn: 0
-    m_Asset: {fileID: 6131705521516393145}
-    m_Duration: 30.983333333333334
+    m_Asset: {fileID: -7984107827360801256}
+    m_Duration: 33.016666666666666
     m_TimeScale: 1
     m_ParentTrack: {fileID: -7998698073743053703}
     m_EaseInDuration: 0
@@ -88,7 +88,7 @@ MonoBehaviour:
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: Infinity
-    m_PreExtrapolationTime: 3.0166666666666666
+    m_PreExtrapolationTime: 3
     m_DisplayName: ShuttleNoStop 1
   m_Markers:
     m_Objects: []
@@ -110,6 +110,28 @@ MonoBehaviour:
   m_OpenClipOffsetRotation: {x: 0, y: 0, z: 0, w: 1}
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_ApplyOffsets: 0
+--- !u!114 &-7984107827360801256
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
+  m_Name: AnimationPlayableAsset
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: 7400000, guid: c2c1feed79d8c0c4da0658b4cb26a51d, type: 2}
+  m_Position: {x: 19.71, y: -0.53, z: -48.29}
+  m_EulerAngles: {x: 0, y: 90, z: 0}
+  m_UseTrackMatchFields: 1
+  m_MatchTargetFields: 63
+  m_RemoveStartOffset: 1
+  m_ApplyFootIK: 1
+  m_Loop: 0
+  m_Version: 1
+  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &-3309239372130579623
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -280,28 +302,6 @@ MonoBehaviour:
   m_Clip: {fileID: 7400000, guid: 8a78bd77fc93ba242a24a5dd4a4bb7f6, type: 2}
   m_Position: {x: 7.5, y: 2.5, z: -28}
   m_EulerAngles: {x: 5, y: 0, z: 0}
-  m_UseTrackMatchFields: 1
-  m_MatchTargetFields: 63
-  m_RemoveStartOffset: 1
-  m_ApplyFootIK: 1
-  m_Loop: 0
-  m_Version: 1
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
---- !u!114 &6131705521516393145
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
-  m_Name: AnimationPlayableAsset
-  m_EditorClassIdentifier: 
-  m_Clip: {fileID: 7400000, guid: c2c1feed79d8c0c4da0658b4cb26a51d, type: 2}
-  m_Position: {x: 13, y: -0.53, z: -48.29}
-  m_EulerAngles: {x: 0, y: 90, z: 0}
   m_UseTrackMatchFields: 1
   m_MatchTargetFields: 63
   m_RemoveStartOffset: 1
